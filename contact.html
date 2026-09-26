@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Ramesh Chicken Center</title>
+  <meta name="description" content="Contact Ramesh Chicken Center in Jayankondam, Ariyalur, Tamil Nadu. Visit our store, call us, or send an inquiry for fresh chicken, country chicken, and bulk orders.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       SITE HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Ramesh Chicken Center Home">
+        <img src="assets/logo.png" alt="ரமேஷ் சிக்கன் சென்டர் - Ramesh Chicken Center Logo" width="220" height="54">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="navMenu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">HOME</a>
+        <a href="about.html" class="nav-link">ABOUT</a>
+        <a href="service.html" class="nav-link">SERVICE</a>
+        <a href="contact.html" class="nav-link active">CONTACT</a>
+      </nav>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         PAGE BANNER
+         ========================================================================== -->
+    <section class="page-banner">
+      <div class="container">
+        <h1 class="page-banner-title">Contact Us</h1>
+        <p class="page-banner-subtitle">
+          எங்களை தொடர்பு கொள்ள அல்லது எங்கள் கடைக்கு நேரடியாக வருகை தர அன்போடு வரவேற்கிறோம்.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TWO-COLUMN CONTACT SECTION
+         ========================================================================== -->
+    <section class="contact-page-section">
+      <div class="container">
+        <div class="contact-layout-grid">
+          
+          <!-- LEFT: Contact Information Card -->
+          <div class="contact-card-box">
+            <h3>Visit Our Store</h3>
+
+            <div class="store-info-list">
+              <div class="info-item">
+                <span class="info-icon">🏬</span>
+                <div class="info-text">
+                  <strong>Ramesh Chicken Center</strong>
+                  <p>
+                    X Road,<br>
+                    Kolla Puram Main Road ,<br>
+                    UdyarPalayam Tk, Ariyalur Dist, Tamil Nadu
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">📞</span>
+                <div class="info-text">
+                  <strong>Phone Numbers</strong>
+                  <p>
+                    <a href="tel:9698421128">96984 21128</a><br>
+                    <a href="tel:7904488770">79044 88770</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">✉️</span>
+                <div class="info-text">
+                  <strong>Email Address</strong>
+                  <p><a href="mailto:info@rameshchickencenter.in">info@rameshchickencenter.in</a></p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">📄</span>
+                <div class="info-text">
+                  <strong>GST Number</strong>
+                  <p>33AALFS7970C1Z1</p>
+                </div>
+              </div>
+
+              <div class="info-item">
+                <span class="info-icon">🕒</span>
+                <div class="info-text">
+                  <strong>Working Hours</strong>
+                  <p>
+                    Monday - Saturday: 7:00 AM - 9:00 PM<br>
+                    Sunday: 6:00 AM - 10:00 PM 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Media Buttons -->
+            <div class="social-buttons" style="margin-top: 30px;">
+              <a href="https://www.instagram.com/rameshchickens/" target="_blank" rel="noopener noreferrer" class="btn-social instagram" aria-label="Visit Instagram page">
+                <span>📸</span> Instagram
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61556262002644" target="_blank" rel="noopener noreferrer" class="btn-social facebook" aria-label="Visit Facebook page">
+                <span>👍</span> Facebook
+              </a>
+            </div>
+          </div>
+
+          <!-- RIGHT: Interactive Contact Form -->
+          <div class="contact-card-box">
+            <h3>Send Us a Message</h3>
+
+            <form class="contact-form" id="pageContactForm" novalidate>
+              <div class="form-group">
+                <label for="contactName">Your Name *</label>
+                <input type="text" id="contactName" name="name" class="form-control" placeholder="Enter your full name" required>
+                <span class="error-text">Please enter your name (min 2 characters)</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactPhone">Phone Number *</label>
+                <input type="tel" id="contactPhone" name="phone" class="form-control" placeholder="Enter your 10-digit mobile number" required>
+                <span class="error-text">Please enter a valid 10-digit mobile number</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email Address *</label>
+                <input type="email" id="contactEmail" name="email" class="form-control" placeholder="Enter your email address" required>
+                <span class="error-text">Please enter a valid email address</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message / Order Requirements *</label>
+                <textarea id="contactMessage" name="message" class="form-control" placeholder="Tell us what product or quantities you are looking for..." rows="4" required></textarea>
+                <span class="error-text">Please enter your message (min 5 characters)</span>
+              </div>
+
+              <button type="submit" class="btn-submit" style="padding: 15px 24px; font-size: 1.05rem;">
+                Send Message <span>🚀</span>
+              </button>
+
+              <div class="form-success-message" role="alert" aria-live="polite"></div>
+            </form>
+          </div>
+
+        </div>
+
+        <!-- ==========================================================================
+             MAP SECTION & DIRECTIONS
+             ========================================================================== -->
+        <div class="map-standalone-card">
+          <h3 style="font-family: var(--font-heading); font-size: 1.6rem; font-weight: 900; color: var(--dark-green); margin-bottom: 16px;">
+            Find Us on Google Maps
+          </h3>
+          <p style="color: #273e22; margin-bottom: 20px;">
+            Conveniently located at Chidambaram Road, Jayankondam, easily accessible from all main transit routes.
+          </p>
+
+          <div class="map-embed-container" style="height: 380px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14309.6492186414!2d79.467595!3d11.206108!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54d5002bbc3aa7%3A0x98656423b551855d!2sRamesh%20Chicken%20Centre!5e1!3m2!1sen!2sin!4v1790405692346!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Ramesh Chicken Center Jayankondam Map Location">
+            </iframe>
+          </div>
+
+          <div class="map-actions">
+            <a href="https://maps.app.goo.gl/19s1g1iZg9n4HgJR7" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              Open in Maps <span>↗</span>
+            </a>
+            <a href="https://maps.app.goo.gl/19s1g1iZg9n4HgJR7" target="_blank" rel="noopener noreferrer" class="btn-primary" style="background: var(--accent-red);">
+              <span>📍</span> Get Directions
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>ரமேஷ் சிக்கன் சென்டர்</h3>
+          <p>
+            உங்கள் குடும்பத்தின் தேவைக்கான தரமான, புதிய மற்றும் சுகாதாரமான கோழி இறைச்சி மற்றும் கோழிப் பொருட்கள்.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="service.html">Our Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Working Hours</h4>
+          <p>Mon - Sat: 7:00 AM - 9:00 PM</p>
+          <p>Sunday: 6:00 AM - 10:00 PM</p>
+          <p>Phone: 96984 21128 / 79044 88770</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ramesh Chicken Center. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">&#8679;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
