@@ -1309,8 +1309,44 @@ textarea.form-control {
 
 .map-actions {
   display: flex;
-  gap: 16px;
+  gap: 14px;
   margin-top: 18px;
+  align-items: center;
+}
+
+.map-actions .btn-secondary,
+.map-actions .btn-primary {
+  flex: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+  padding: 12px 18px;
+  font-family: var(--font-heading);
+  font-size: 0.95rem;
+  font-weight: 700;
+  border-radius: var(--radius-full);
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: all var(--transition-fast);
+}
+
+.map-actions .btn-primary {
+  background: var(--accent-red);
+  color: var(--white);
+  box-shadow: 0 4px 14px rgba(136, 36, 36, 0.3);
+}
+
+.map-actions .btn-primary:hover {
+  background: var(--accent-red-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(136, 36, 36, 0.4);
+}
+
+.location-map-wrap .map-actions {
+  margin-top: auto;
 }
 
 /* ==========================================================================
@@ -1615,6 +1651,26 @@ textarea.form-control {
 
   .contact-layout-grid {
     grid-template-columns: 1fr;
+  }
+
+  /* Map & Directions Action Buttons (Mobile View: Stacked one by one) */
+  .map-actions {
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .map-actions .btn-secondary,
+  .map-actions .btn-primary,
+  .map-actions a {
+    width: 100%;
+    min-width: 100%;
+    flex: none;
+    justify-content: center;
+    text-align: center;
+    padding: 13px 20px;
+    font-size: 0.95rem;
+    box-sizing: border-box;
   }
 
   .footer-top {
